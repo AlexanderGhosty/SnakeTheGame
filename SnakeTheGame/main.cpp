@@ -4,7 +4,6 @@
 
 int main()
 {
-	
-	Field a;
+	Game start;
 	return 0;
 }
