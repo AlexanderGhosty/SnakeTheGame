@@ -1,0 +1,51 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.34.31933.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/bycks/source/repos/snakethegame/snakethegame/main.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "2869d54a3672a61ced594a7c9acaaffdeb113a99704a5bc0e3e8e36e17edce07"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/bycks/source/repos/snakethegame/snakethegame/header.h"
+          },
+          "hashes": {
+            "sha-256": "c4a393694aeece2832a23c5bdfbebb37bf3bfe80b1a217ea62756aa64aa9283e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/bycks/source/repos/snakethegame/snakethegame/field.h"
+          },
+          "hashes": {
+            "sha-256": "c477e3a95e8cdb53566a08053bdfa1de2fd70bd732e0aaf07916ea5d5d473ec3"
+          }
+        }
+      ]
+    }
+  ]
+}
